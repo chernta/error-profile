@@ -1,0 +1,77 @@
+body{
+    background-image: url("image/wallpaper.png");
+    background-position: center; /*Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;  /*Resize the background im image to cover the entire container */
+    font-family: Arial, sans-serif;
+    color: black;
+}
+/*Header*/
+#header-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+#logo {
+    width: 80px;
+    border-radius: 50%;
+}
+.nav-item, .navbar, .nav-link, .dropdown-item{
+    margin: 10px;
+    background-color: transparent;
+    color: black;
+    display: inline-block;
+    /*flex-direction: row;
+    flex-wrap: wrap;*/
+}
+
+.container {
+    width: 100%;
+    max-width: 750px;
+    margin: 0 auto;
+    border: solid black;
+}
+
+header, section, footer{
+        padding: 5px;
+        margin: 10px;
+        /*box-sizing: border-box;*/
+}
+
+
+nav {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+/*@media (min-width: 679px) {
+    article {
+        max-width: 780px;
+    }
+}*/
+
+footer {
+    border-color: black;
+    clear: both;
+    text-align: center;
+}
+.img {
+    width: 180px;
+    height: 270px;
+}
+
+/*.image-section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}*/
+
+
